@@ -19,9 +19,6 @@ public class QueenMoves {
         return m;
     }
 
-    public static int dist(int x, int y, int r_q, int c_q){
-        return Math.abs((x - r_q) + (y - c_q));
-    }
     public static int queensAttack(int n, int k, int r_q, int c_q, List<List<Integer>> obstacles) {
         // Write your code here
         if (n == 0) return 0;
